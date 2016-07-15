@@ -97,9 +97,6 @@
       <HintPath>..\..\packages\Xamarin.Forms.2.0.0.6482\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Vitamio">
-      <HintPath>Lib\Xamarin.Vitamio.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomRenderers\VlcPlayerViewCustomRenderer.cs" />
