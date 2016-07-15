@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:Vlc.Forms.Views;assembly=Vlc.Forms"
+             x:Class="Vlc.Forms.Views.MainPage">
+
+    <!--For Some reason putting VlcPlayerView inside a stacklayout does not work-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <views:VlcPlayerView VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="0" />
+        <StackLayout Grid.Row="1" Orientation="Horizontal">
+            <Button Text="Play 1" Clicked="Button_Play1_OnClicked" />
+            <Button Text="Play 2" Clicked="Button_Play2_OnClicked" />
+            <Button Text="+" Clicked="Button_VolumeUp_OnClicked" />
+            <Button Text="-" Clicked="Button_VolumeDown_OnClicked" />
+        </StackLayout>
+    </Grid>
+
+
+</ContentPage>
