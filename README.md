@@ -1,4 +1,4 @@
-<h1>Xamarin.Vlc</h1>
+<h1>Vlc.Forms</h1>
 Here you can find my sample of how to use VLC as a video player for your xamarin project without installing VLC from the store
 
 <h2>What can you participate with?</h2>
